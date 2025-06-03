@@ -18,8 +18,7 @@ bld/
 [Oo]bj/
 
 ## Visual Studio cache files
-.vs/
-*.vsidx
+.vs/**/*.vsidx
 
 ## Others
 *.log

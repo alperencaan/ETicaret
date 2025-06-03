@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ETicaret.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ETicaret.WebUI.74dnz7gsfa.bundle.scp.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\1.jpg",
+      "PackagePath": "staticwebassets\\Img\\1.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\11111.jpg",
+      "PackagePath": "staticwebassets\\Img\\11111.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\010203.jpg",
+      "PackagePath": "staticwebassets\\Img\\Categories\\010203.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\1235.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\1235.png"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Product\\1.webp",
+      "PackagePath": "staticwebassets\\Img\\Product\\1.webp"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Product\\123455555.jpg",
+      "PackagePath": "staticwebassets\\Img\\Product\\123455555.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Product\\aaaa.jpg",
+      "PackagePath": "staticwebassets\\Img\\Product\\aaaa.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Product\\e-ticaret-yazilimi_64423.jpg",
+      "PackagePath": "staticwebassets\\Img\\Product\\e-ticaret-yazilimi_64423.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Product\\maj41-serta-majesty-yatak-638144676378114667.webp",
+      "PackagePath": "staticwebassets\\Img\\Product\\maj41-serta-majesty-yatak-638144676378114667.webp"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Slider\\1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\1.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Slider\\1.webp",
+      "PackagePath": "staticwebassets\\Img\\Slider\\1.webp"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Slider\\downlo11ad.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\downlo11ad.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Slider\\e-ticaret-yazilimi_64423.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\e-ticaret-yazilimi_64423.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Slider\\m1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\m1.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Slider\\slider-tasarimi.webp",
+      "PackagePath": "staticwebassets\\Img\\Slider\\slider-tasarimi.webp"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\download.png",
+      "PackagePath": "staticwebassets\\Img\\download.png"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\podcast.jpg",
+      "PackagePath": "staticwebassets\\Img\\podcast.jpg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\401.html",
+      "PackagePath": "staticwebassets\\admin\\401.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\404.html",
+      "PackagePath": "staticwebassets\\admin\\404.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\500.html",
+      "PackagePath": "staticwebassets\\admin\\500.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\charts.html",
+      "PackagePath": "staticwebassets\\admin\\charts.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\css\\styles.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\index.html",
+      "PackagePath": "staticwebassets\\admin\\index.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\scripts.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\layout-sidenav-light.html",
+      "PackagePath": "staticwebassets\\admin\\layout-sidenav-light.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\layout-static.html",
+      "PackagePath": "staticwebassets\\admin\\layout-static.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\login.html",
+      "PackagePath": "staticwebassets\\admin\\login.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\password.html",
+      "PackagePath": "staticwebassets\\admin\\password.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\register.html",
+      "PackagePath": "staticwebassets\\admin\\register.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\tables.html",
+      "PackagePath": "staticwebassets\\admin\\tables.html"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "A:\\BitirmeProjesiVektorel\\ETicaret\\ETicaret.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ETicaret.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ETicaret.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ETicaret.WebUI.props",
+      "PackagePath": "build\\ETicaret.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ETicaret.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\ETicaret.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ETicaret.WebUI.props",
+      "PackagePath": "buildTransitive\\ETicaret.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

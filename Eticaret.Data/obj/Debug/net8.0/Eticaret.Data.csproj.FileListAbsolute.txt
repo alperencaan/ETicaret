@@ -1,0 +1,17 @@
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\bin\Debug\net8.0\Eticaret.Data.deps.json
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\bin\Debug\net8.0\Eticaret.Data.runtimeconfig.json
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\bin\Debug\net8.0\Eticaret.Data.dll
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\bin\Debug\net8.0\Eticaret.Data.pdb
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\bin\Debug\net8.0\Eticaret.Core.dll
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\bin\Debug\net8.0\Eticaret.Core.pdb
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.csproj.AssemblyReference.cache
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.GeneratedMSBuildEditorConfig.editorconfig
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.AssemblyInfoInputs.cache
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.AssemblyInfo.cs
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.csproj.CoreCompileInputs.cache
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.5F83CBB5.Up2Date
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.dll
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\refint\Eticaret.Data.dll
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.pdb
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\Eticaret.Data.genruntimeconfig.cache
+A:\BitirmeProjesiVektorel\ETicaret\Eticaret.Data\obj\Debug\net8.0\ref\Eticaret.Data.dll

@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Eticaret.Core.Entities;
 using Eticaret.Data;
 using ETicaret.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -31,10 +32,35 @@ namespace ETicaret.WebUI.Controllers
         public IActionResult Privacy()
         {
             return View();
-        } public IActionResult ContactUs()
+        }
+        public IActionResult ContactUs()
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult ContactUs(Contact contact)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Contacts.Add(contact);
+                    var sonuc = _context.SaveChanges();
+                    if (sonuc > 0)
+                    {
+                        TempData["Message"] = "<div class='alert alert-success'>Mesajýnýz Gönderilmiþtir!</div>";
+                        return RedirectToAction("ContactUs");
+                    }
+                }
+                catch (Exception)
+                {
+                    ModelState.AddModelError("", "Hata Oluþtu!");
+                }
+            }
+
+            return View(contact);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

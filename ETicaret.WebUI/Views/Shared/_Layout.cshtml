@@ -10,13 +10,12 @@
 </head>
 <body>
     <partial name="_Header"/>
-    @TempData["Message"] 
+    @Html.Raw(TempData["Message"])
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
     <partial name="_Footer" />
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

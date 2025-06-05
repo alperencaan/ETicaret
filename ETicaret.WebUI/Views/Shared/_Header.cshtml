@@ -15,25 +15,25 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-controller="Home" asp-action="ContactUs">İletişim</a>
                     </li>
-                    <div class="col-md-3 text-end">
-                        <div class="dropdown">
-                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Giriş Yap
-                            </a>
+                </ul>
 
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Giriş</a></li>
-                                <li><a class="dropdown-item" href="#"> Üye Ol </a></li>
+                <div class="col-md-3 text-end">
+                    <div class="dropdown">
+                      @*   <a class="dropdown-toggle text-dark text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giriş Yap
 
-                            </ul>
-                        </div>
 
-                        <button type="button" class="btn btn-outline-primary me-2">Giriş</button>
-                        <button type="button" class="btn btn-primary">Üye Ol</button>
+                        </a> *@
+
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Giriş</a></li>
+                            <li><a class="dropdown-item" href="#">Üye Ol</a></li>
+                        </ul>
                     </div>
 
-
-                </ul>
+                    <button type="button" class="btn btn-outline-primary me-2">Giriş</button>
+                    <button type="button" class="btn btn-primary">Üye Ol</button>
+                </div>
             </div>
         </div>
     </nav>

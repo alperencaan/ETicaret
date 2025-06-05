@@ -4,14 +4,14 @@
     ViewData["Title"] = "Ana Sayfa";
 }
 
-<partial name="_Slider" model="Model.Sliders"/>
+<partial name="_Slider" model="Model.Sliders" />
 <div>
 
-    <h1>
-        Ürünlerimiz
+    <h1 class="text-center">
+        Öne Çıkan Ürünler 
     </h1>
-    <div class="row gx-4 gx-lg-5 row row-cols-xl-4 justify-content-center">
-        @foreach(var item in Model.Products)
+    <div class="row gx-4 gx-lg-5 row-cols-xl-4 justify-content-center">
+        @foreach (var item in Model.Products)
         {
             <partial name="_ProductView" model="item" />
 

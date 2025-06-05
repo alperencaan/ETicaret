@@ -96,5 +96,27 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        //Get
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contact = await _context.Contacts
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (contact == null)
+            {
+                return NotFound();
+            }
+
+            return View(contact);
+        }
+
+
+
+
     }
 }

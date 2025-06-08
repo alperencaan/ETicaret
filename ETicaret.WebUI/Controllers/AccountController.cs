@@ -56,7 +56,7 @@ namespace ETicaret.WebUI.Controllers
                         return RedirectToAction("Index", "Home"); // Giriş başarılıysa anasayfaya yönlendir
 
                     }
-                
+
 
                     // işlemler
                 }
@@ -92,4 +92,3 @@ namespace ETicaret.WebUI.Controllers
 
     }
 }
-

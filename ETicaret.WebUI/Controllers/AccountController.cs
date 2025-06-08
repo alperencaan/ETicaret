@@ -23,12 +23,12 @@ namespace ETicaret.WebUI.Controllers
         {
             return View();
         }
-        public IActionResult SignIn()
+        public IActionResult Signin()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> SignIn(LoginViewModel loginViewModel)
+        public async Task<IActionResult> Signin(LoginViewModel loginViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -70,12 +70,12 @@ namespace ETicaret.WebUI.Controllers
         }
 
 
-        public IActionResult SignUp()
+        public IActionResult Signup()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> SignUpAsync(AppUser appUser)
+        public async Task<IActionResult> SignupAsync(AppUser appUser)
         {
             appUser.IsAdmin = false; // Varsayılan olarak admin değil
             appUser.IsActive = true; // Varsayılan olarak aktif
@@ -87,7 +87,7 @@ namespace ETicaret.WebUI.Controllers
             }
 
             // Eğer SignUp.cshtml varsa bunu dönmeniz daha mantıklı:
-            return View("SignUp", appUser);
+            return View("Signup", appUser);
         }
 
     }

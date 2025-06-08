@@ -3,10 +3,8 @@ using Eticaret.Data;
 using ETicaret.WebUI.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
-using System.Threading.Tasks;
 
 namespace ETicaret.WebUI.Controllers
 {
@@ -23,12 +21,12 @@ namespace ETicaret.WebUI.Controllers
         {
             return View();
         }
-        public IActionResult Signin()
+        public IActionResult SignIn()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Signin(LoginViewModel loginViewModel)
+        public async Task<IActionResult> SignIn(LoginViewModel loginViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -53,7 +51,7 @@ namespace ETicaret.WebUI.Controllers
                         var userIdentity = new ClaimsIdentity(claims, "Login");
                         ClaimsPrincipal userPrincipal = new ClaimsPrincipal(userIdentity);
                         await HttpContext.SignInAsync(userPrincipal);
-                        return RedirectToAction("Index", "Home"); // Giriş başarılıysa anasayfaya yönlendir
+                        return RedirectToAction("Index", "Account"); // Giriş başarılıysa anasayfaya yönlendir
 
                     }
 
@@ -70,12 +68,12 @@ namespace ETicaret.WebUI.Controllers
         }
 
 
-        public IActionResult Signup()
+        public IActionResult SignUp()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> SignupAsync(AppUser appUser)
+        public async Task<IActionResult> SignUpAsync(AppUser appUser)
         {
             appUser.IsAdmin = false; // Varsayılan olarak admin değil
             appUser.IsActive = true; // Varsayılan olarak aktif
@@ -87,7 +85,7 @@ namespace ETicaret.WebUI.Controllers
             }
 
             // Eğer SignUp.cshtml varsa bunu dönmeniz daha mantıklı:
-            return View("Signup", appUser);
+            return View("SignUp", appUser);
         }
 
     }

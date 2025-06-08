@@ -21,6 +21,7 @@ namespace ETicaret.WebUI.Controllers
         {
             return View();
         }
+
         public IActionResult SignIn()
         {
             return View();
@@ -32,7 +33,7 @@ namespace ETicaret.WebUI.Controllers
             {
                 try
                 {
-                    var account = await _context.AppUsers.FirstOrDefaultAsync(x => x.Email == loginViewModel.Email & x.Password == loginViewModel.Password & x.IsActive);
+                    var account = await _context.AppUsers.FirstOrDefaultAsync(x => x.Email == loginViewModel.Email && x.Password == loginViewModel.Password && x.IsActive);
                     if (account == null)
                     {
                         ModelState.AddModelError(" ", "Kullanıcı bulunamadı");

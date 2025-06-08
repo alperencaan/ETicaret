@@ -34,6 +34,8 @@ namespace ETicaret.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> SignUpAsync(AppUser appUser)
         {
+            appUser.IsAdmin = false; // Varsayılan olarak admin değil
+            appUser.IsActive = true; // Varsayılan olarak aktif
             if (ModelState.IsValid)
             {
                 await _context.AddAsync(appUser);  // AddAsync kullanın

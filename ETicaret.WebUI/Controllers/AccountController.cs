@@ -1,6 +1,8 @@
 ﻿using Eticaret.Core.Entities;
 using Eticaret.Data;
+using ETicaret.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace ETicaret.WebUI.Controllers
 {
@@ -22,11 +24,23 @@ namespace ETicaret.WebUI.Controllers
             return View();
         }
         [HttpPost]
-
-        public IActionResult SignIn(AppUser appUser)
+        public IActionResult SignIn(LoginViewModel loginViewModel)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    // işlemler
+                }
+                catch (Exception)
+                {
+                    ModelState.AddModelError(" ", "Hata Abicim");
+                }
+            }
+            return View(loginViewModel);
         }
+
+
         public IActionResult SignUp()
         {
             return View();

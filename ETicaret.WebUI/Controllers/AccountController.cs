@@ -1,8 +1,12 @@
 ﻿using Eticaret.Core.Entities;
 using Eticaret.Data;
 using ETicaret.WebUI.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace ETicaret.WebUI.Controllers
 {
@@ -24,16 +28,41 @@ namespace ETicaret.WebUI.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult SignIn(LoginViewModel loginViewModel)
+        public async Task<IActionResult> SignIn(LoginViewModel loginViewModel)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
+                    var account = await _context.AppUsers.FirstOrDefaultAsync(x => x.Email == loginViewModel.Email & x.Password == loginViewModel.Password & x.IsActive);
+                    if (account == null)
+                    {
+                        ModelState.AddModelError(" ", "Kullanıcı bulunamadı");
+                    }
+                    else
+                    {
+                        var claims = new List<Claim>()
+                        {
+                            new(ClaimTypes.Name, account.Name),
+                            new(ClaimTypes.Role, account.IsAdmin ? "Admin" : "Customer"),
+                            new(ClaimTypes.Email, account.Email),
+                            new("UserId", account.Id.ToString()),
+                            new("UserGuid", account.UserGuid.ToString())
+
+                    };
+                        var userIdentity = new ClaimsIdentity(claims, "Login");
+                        ClaimsPrincipal userPrincipal = new ClaimsPrincipal(userIdentity);
+                        await HttpContext.SignInAsync(userPrincipal);
+                        return RedirectToAction("Index", "Home"); // Giriş başarılıysa anasayfaya yönlendir
+
+                    }
+                
+
                     // işlemler
                 }
-                catch (Exception)
+                catch (Exception hata)
                 {
+                    //loglama
                     ModelState.AddModelError(" ", "Hata Abicim");
                 }
             }
@@ -63,4 +92,4 @@ namespace ETicaret.WebUI.Controllers
 
     }
 }
-    
+

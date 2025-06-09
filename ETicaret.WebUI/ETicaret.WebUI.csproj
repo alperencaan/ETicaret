@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eticaret.Core\Eticaret.Core.csproj" />
-    <ProjectReference Include="..\Eticaret.Data\Eticaret.Data.csproj" />
-    <ProjectReference Include="..\Eticaret.Service\Eticaret.Service.csproj" />
+    <ProjectReference Include="..\Eticaret.Core\Models.csproj" />
+    <ProjectReference Include="..\Eticaret.Data\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Eticaret.Service\BusinessLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

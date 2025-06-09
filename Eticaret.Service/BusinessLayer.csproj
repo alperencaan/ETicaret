@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eticaret.Data\Eticaret.Data.csproj" />
+    <ProjectReference Include="..\Eticaret.Data\DataAccessLayer.csproj" />
   </ItemGroup>
 
 </Project>

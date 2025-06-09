@@ -21,7 +21,7 @@ namespace Eticaret.Service.Abstract
         int SaveChanges();
         Task<T> FindAsync(int id);
         Task<T> GetAsync(Expression<Func<T, bool>> expression);
-        Task<List<T>> GetAllAsync(Expression<Func<T, bool>> expression)
+        Task<List<T>> GetAllAsync(Expression<Func<T, bool>> expression);
             Task AddAsync(T entity);
         Task<int> SaveChangesAsync();
 

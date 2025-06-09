@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eticaret.Core\Eticaret.Core.csproj" />
+    <ProjectReference Include="..\Eticaret.Core\Models.csproj" />
   </ItemGroup>
 
 </Project>

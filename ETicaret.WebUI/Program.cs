@@ -1,4 +1,6 @@
 using Eticaret.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,13 +8,22 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>();
 
-// Add Authentication (cookie authentication eklemeniz de lazým)
+// Add Authentication (sadece bir kez ve doðru yapýlandýrma ile)
 builder.Services.AddAuthentication("Cookies")
-    .AddCookie("Cookies", options =>
+    .AddCookie(x=>
     {
-        options.LoginPath = "/Account/SignIn";
-        options.LogoutPath = "/Account/SignOut";
+        x.LoginPath = "/Account/SignIn"; // Giriþ sayfasý
+        x.AccessDeniedPath = "/AccessDenied"; // Yetkisiz eriþim sayfasý
+        x.Cookie.Name = "Account"; // Çerez adý
+        x.Cookie.MaxAge = TimeSpan.FromDays(30); // Çerez ömrü
+        x.Cookie.IsEssential = true; // Çerez zorunlu
+
     });
+builder.Services.AddAuthorization(x =>
+{
+    x.AddPolicy("AdminPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
+    x.AddPolicy("UserPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin", "User", "Customer"));
+});
 
 var app = builder.Build();
 
@@ -28,12 +39,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); // Bunu ekledik
+// Authentication ve Authorization middleware'lerini ekleyin
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-           name: "admin",
-           pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}");
+    name: "admin",
+    pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

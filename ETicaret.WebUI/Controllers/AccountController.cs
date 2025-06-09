@@ -1,7 +1,8 @@
 ﻿using Eticaret.Core.Entities;
 using Eticaret.Data;
 using ETicaret.WebUI.Models;
-using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication; 
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
@@ -17,6 +18,7 @@ namespace ETicaret.WebUI.Controllers
         {
             _context = context;
         }
+        [Authorize]
         public IActionResult Index()
         {
             return View();
@@ -31,8 +33,7 @@ namespace ETicaret.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-                try
-                {
+               
                     var account = await _context.AppUsers.FirstOrDefaultAsync(x => x.Email == loginViewModel.Email && x.Password == loginViewModel.Password && x.IsActive);
                     if (account == null)
                     {
@@ -52,12 +53,13 @@ namespace ETicaret.WebUI.Controllers
                         var userIdentity = new ClaimsIdentity(claims, "Login");
                         ClaimsPrincipal userPrincipal = new ClaimsPrincipal(userIdentity);
                         await HttpContext.SignInAsync(userPrincipal);
-                        return RedirectToAction("Index", "Account"); // Giriş başarılıysa anasayfaya yönlendir
+                        return RedirectToAction("Index", "Home"); // Giriş başarılıysa anasayfaya yönlendir
 
                     }
 
 
-                    // işlemler
+                try
+                {    // işlemler
                 }
                 catch (Exception hata)
                 {

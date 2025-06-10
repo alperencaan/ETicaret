@@ -1,4 +1,6 @@
+using BusinessLayer.Concrete;
 using Eticaret.Data;
+using Eticaret.Service.Abstract;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>();
+builder.Services.AddScoped(typeof(Iservice<>), typeof(Service<>));
 
 // Add Authentication (sadece bir kez ve doðru yapýlandýrma ile)
 builder.Services.AddAuthentication("Cookies")

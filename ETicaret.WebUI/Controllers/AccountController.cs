@@ -52,8 +52,8 @@ namespace ETicaret.WebUI.Controllers
                     };
                         var userIdentity = new ClaimsIdentity(claims, "Login");
                         ClaimsPrincipal userPrincipal = new ClaimsPrincipal(userIdentity);
-                        await HttpContext.SignInAsync(userPrincipal);
-                        return RedirectToAction("Index", "Home"); // Giriş başarılıysa anasayfaya yönlendir
+                    await HttpContext.SignInAsync("Cookies", userPrincipal);
+                    return RedirectToAction("Index", "Home"); // Giriş başarılıysa anasayfaya yönlendir
 
                     }
 

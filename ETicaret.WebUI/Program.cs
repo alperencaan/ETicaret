@@ -1,36 +1,42 @@
-using BusinessLayer.Concrete;
+ï»¿using BusinessLayer.Concrete;
 using Eticaret.Data;
 using Eticaret.Service.Abstract;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// DI container
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>();
 builder.Services.AddScoped(typeof(Iservice<>), typeof(Service<>));
 
-// Add Authentication (sadece bir kez ve doðru yapýlandýrma ile)
-builder.Services.AddAuthentication("Cookies")
-    .AddCookie(x=>
-    {
-        x.LoginPath = "/Account/SignIn"; // Giriþ sayfasý
-        x.AccessDeniedPath = "/AccessDenied"; // Yetkisiz eriþim sayfasý
-        x.Cookie.Name = "Account"; // Çerez adý
-        x.Cookie.MaxAge = TimeSpan.FromDays(30); // Çerez ömrü
-        x.Cookie.IsEssential = true; // Çerez zorunlu
-
-    });
-builder.Services.AddAuthorization(x =>
+// âž• Session servisi
+builder.Services.AddSession(options =>
 {
-    x.AddPolicy("AdminPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
-    x.AddPolicy("UserPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin", "User", "Customer"));
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+// âž• Cookie authentication
+builder.Services.AddAuthentication("Cookies")
+    .AddCookie(x =>
+    {
+        x.LoginPath = "/Account/SignIn";
+        x.AccessDeniedPath = "/AccessDenied";
+        x.Cookie.Name = "Account";
+        x.Cookie.MaxAge = TimeSpan.FromDays(30);
+        x.Cookie.IsEssential = true;
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
+    options.AddPolicy("UserPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin", "User", "Customer"));
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -42,7 +48,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// Authentication ve Authorization middleware'lerini ekleyin
+// âž• Session kullanÄ±mÄ±
+app.UseSession();
+
 app.UseAuthentication();
 app.UseAuthorization();
 

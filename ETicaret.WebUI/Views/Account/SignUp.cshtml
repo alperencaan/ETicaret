@@ -3,20 +3,29 @@
     ViewBag.Title = "Kayıt Ol";
 }
 
-<h2>Kayıt Ol</h2>
+<h2 style="text-align:center; margin-bottom: 25px;">Kayıt Ol</h2>
 
-<form asp-action="SignUp" method="post">
-    <div>
-        <label>Ad Soyad</label>
-        <input asp-for="Name" />
+<form asp-action="SignUp" method="post" style="max-width: 450px; margin: 0 auto; padding: 30px; border: 1px solid #ddd; border-radius: 10px; background-color: #fafafa; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+    <div style="margin-bottom: 18px;">
+        <label asp-for="Name" style="display: block; font-weight: 600; margin-bottom: 6px;">Ad Soyad</label>
+        <input asp-for="Name" placeholder="Adınız ve soyadınız" required
+               style="width: 100%; padding: 10px 12px; border: 1px solid #bbb; border-radius: 5px; font-size: 1rem;" />
+        <span asp-validation-for="Name" class="text-danger" style="font-size: 0.9rem;"></span>
     </div>
-    <div>
-        <label>E-Posta</label>
-        <input asp-for="Email" type="email" />
+    <div style="margin-bottom: 18px;">
+        <label asp-for="Email" style="display: block; font-weight: 600; margin-bottom: 6px;">E-Posta</label>
+        <input asp-for="Email" type="email" placeholder="E-posta adresiniz" required
+               style="width: 100%; padding: 10px 12px; border: 1px solid #bbb; border-radius: 5px; font-size: 1rem;" />
+        <span asp-validation-for="Email" class="text-danger" style="font-size: 0.9rem;"></span>
     </div>
-    <div>
-        <label>Şifre</label>
-        <input asp-for="Password" type="password" />
+    <div style="margin-bottom: 25px;">
+        <label asp-for="Password" style="display: block; font-weight: 600; margin-bottom: 6px;">Şifre</label>
+        <input asp-for="Password" type="password" placeholder="Şifrenizi girin" required
+               style="width: 100%; padding: 10px 12px; border: 1px solid #bbb; border-radius: 5px; font-size: 1rem;" />
+        <span asp-validation-for="Password" class="text-danger" style="font-size: 0.9rem;"></span>
     </div>
-    <button type="submit">Kayıt Ol</button>
+    <button type="submit"
+            style="width: 100%; background-color: #28a745; color: white; padding: 14px; border: none; border-radius: 6px; font-size: 1.2rem; cursor: pointer; transition: background-color 0.3s;">
+        Kayıt Ol
+    </button>
 </form>

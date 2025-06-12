@@ -54,7 +54,11 @@ namespace ETicaret.WebUI.Controllers
             if (user != null)
             {
                 HttpContext.Session.SetString("user", user.Name ?? user.Email);
-                return RedirectToAction("Index", "Home");
+                HttpContext.Session.SetString("isAdmin", user.IsAdmin.ToString() ?? "false");
+                if(user.IsAdmin)
+                    return RedirectToAction("Index", "Admin");
+                else
+                    return RedirectToAction("Index", "Home");
             }
 
             ViewBag.Error = "E-posta veya şifre yanlış.";

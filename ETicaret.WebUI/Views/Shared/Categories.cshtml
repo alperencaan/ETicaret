@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Eticaret.Core.Entities.Product>
+
+@{
+    ViewData["Title"] = ViewBag.CategoryName;
+}
+
+<h2>@ViewBag.CategoryName</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Bu kategoriye ait ürün bulunmamaktadır.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var urun in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/Img/Product/@urun.Image"
+                         class="card-img-top"
+                         alt="@urun.Name"
+                         style="height: 200px; object-fit: scale-down;" />
+                         <div class="card-body">
+                        <h5 class="card-title">@urun.Name</h5>
+                        <p class="card-text">@urun.Price ₺</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

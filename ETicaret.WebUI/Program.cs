@@ -1,6 +1,6 @@
-﻿using BusinessLayer.Concrete;
+﻿// using BusinessLayer.Concrete;
 using Eticaret.Data;
-using Eticaret.Service.Abstract;
+// using Eticaret.Service.Abstract;
 using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 // DI container
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>();
-builder.Services.AddScoped(typeof(Iservice<>), typeof(Service<>));
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
+
 
 // ➕ Session servisi
 builder.Services.AddSession(options =>
@@ -61,5 +63,20 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path;
+    if (path.StartsWithSegments("/Admin"))
+    {
+        var isAdmin = context.Session.GetString("isAdmin");
+        if (string.IsNullOrEmpty(isAdmin) || isAdmin == "False")
+        {
+            context.Response.Redirect("/");
+            return; // pipeline'ı burada sonlandır
+        }
+    }
+    await next();
+});
 
 app.Run();
